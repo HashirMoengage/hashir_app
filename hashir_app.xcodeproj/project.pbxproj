@@ -1,0 +1,1225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A6805B22C0F259A003DC660 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6805B12C0F259A003DC660 /* NotificationService.swift */; };
+		2A6805B62C0F259A003DC660 /* InternsNotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2A6805AF2C0F259A003DC660 /* InternsNotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2A6805BF2C0F25BB003DC660 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A60E87F2C05D99F00CA67B8 /* UserNotifications.framework */; };
+		2A6805C02C0F25BB003DC660 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A60E8812C05D99F00CA67B8 /* UserNotificationsUI.framework */; };
+		2A6805C32C0F25BB003DC660 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6805C22C0F25BB003DC660 /* NotificationViewController.swift */; };
+		2A6805C62C0F25BB003DC660 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2A6805C52C0F25BB003DC660 /* Base */; };
+		2A6805CA2C0F25BB003DC660 /* InternsNotificationContent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2A6805BE2C0F25BA003DC660 /* InternsNotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2AB0D4B32BFB7BF6009E7E87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0D4B22BFB7BF6009E7E87 /* AppDelegate.swift */; };
+		2AB0D4B52BFB7BF6009E7E87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0D4B42BFB7BF6009E7E87 /* SceneDelegate.swift */; };
+		2AB0D4B72BFB7BF6009E7E87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0D4B62BFB7BF6009E7E87 /* ViewController.swift */; };
+		2AB0D4BA2BFB7BF6009E7E87 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2AB0D4B92BFB7BF6009E7E87 /* Base */; };
+		2AB0D4BC2BFB7BF7009E7E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB0D4BB2BFB7BF7009E7E87 /* Assets.xcassets */; };
+		2AB0D4BF2BFB7BF7009E7E87 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2AB0D4BE2BFB7BF7009E7E87 /* Base */; };
+		2AB0D4CA2BFB7BF8009E7E87 /* hashir_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0D4C92BFB7BF8009E7E87 /* hashir_appTests.swift */; };
+		2AB0D4D42BFB7BF8009E7E87 /* hashir_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0D4D32BFB7BF8009E7E87 /* hashir_appUITests.swift */; };
+		2AB0D4D62BFB7BF8009E7E87 /* hashir_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0D4D52BFB7BF8009E7E87 /* hashir_appUITestsLaunchTests.swift */; };
+		2AB0D4E52BFC5F95009E7E87 /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0D4E42BFC5F95009E7E87 /* ProfilePageViewController.swift */; };
+		2AB0D4EA2BFD0D22009E7E87 /* ProductPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0D4E92BFD0D22009E7E87 /* ProductPageViewController.swift */; };
+		2AB0D4EC2BFDA55A009E7E87 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0D4EB2BFDA55A009E7E87 /* HomePageViewController.swift */; };
+		2AB0D4FE2BFF3698009E7E87 /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0D4FD2BFF3698009E7E87 /* CardListViewController.swift */; };
+		53EE9E95361ABC1A6DE0DE7D /* Pods_hashir_app_hashir_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DF216DB4DD31CD29F441F0 /* Pods_hashir_app_hashir_appUITests.framework */; };
+		73373B0EA597E2A24F32E53C /* Pods_InternsNotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070A44E04E3DA928039EC8ED /* Pods_InternsNotificationService.framework */; };
+		97A4BD86CE1F5D465C25AA4C /* Pods_hashir_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822B9B7C30D14559C4AF680E /* Pods_hashir_appTests.framework */; };
+		DF45ADB7731BADFC4D7190C0 /* Pods_hashir_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4529E4D4071EA71D0E968B9D /* Pods_hashir_app.framework */; };
+		FDC2B1D4A914CDDEF1D2406A /* Pods_InternsNotificationContent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321493FABFF4AFBA5B0FEA0F /* Pods_InternsNotificationContent.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A6805B42C0F259A003DC660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AB0D4A72BFB7BF6009E7E87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A6805AE2C0F259A003DC660;
+			remoteInfo = InternsNotificationService;
+		};
+		2A6805C82C0F25BB003DC660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AB0D4A72BFB7BF6009E7E87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A6805BD2C0F25BA003DC660;
+			remoteInfo = InternsNotificationContent;
+		};
+		2AB0D4C62BFB7BF8009E7E87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AB0D4A72BFB7BF6009E7E87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AB0D4AE2BFB7BF6009E7E87;
+			remoteInfo = hashir_app;
+		};
+		2AB0D4D02BFB7BF8009E7E87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AB0D4A72BFB7BF6009E7E87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AB0D4AE2BFB7BF6009E7E87;
+			remoteInfo = hashir_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2AB0D4FC2BFE04DB009E7E87 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2A6805CA2C0F25BB003DC660 /* InternsNotificationContent.appex in Embed Foundation Extensions */,
+				2A6805B62C0F259A003DC660 /* InternsNotificationService.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0192FE1792D8105BEFD10286 /* Pods-InternsNotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternsNotificationService.release.xcconfig"; path = "Target Support Files/Pods-InternsNotificationService/Pods-InternsNotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		02CDEF06BFBF6117FAE35E53 /* Pods-hashir_app-InternsNotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hashir_app-InternsNotificationService.debug.xcconfig"; path = "Target Support Files/Pods-hashir_app-InternsNotificationService/Pods-hashir_app-InternsNotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		070A44E04E3DA928039EC8ED /* Pods_InternsNotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InternsNotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0872FCAD37C719A4731F74F4 /* Pods_hashir_app_NotificationContentExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hashir_app_NotificationContentExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA4A44BCB5F1710575BA8E3 /* Pods-hashir_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hashir_app.release.xcconfig"; path = "Target Support Files/Pods-hashir_app/Pods-hashir_app.release.xcconfig"; sourceTree = "<group>"; };
+		14DF216DB4DD31CD29F441F0 /* Pods_hashir_app_hashir_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hashir_app_hashir_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		273C5A8CB78F7D2669E893B0 /* Pods-hashir_appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hashir_appTests.debug.xcconfig"; path = "Target Support Files/Pods-hashir_appTests/Pods-hashir_appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A60E87F2C05D99F00CA67B8 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		2A60E8812C05D99F00CA67B8 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		2A6805AF2C0F259A003DC660 /* InternsNotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = InternsNotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A6805B12C0F259A003DC660 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		2A6805B32C0F259A003DC660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A6805BE2C0F25BA003DC660 /* InternsNotificationContent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = InternsNotificationContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A6805C22C0F25BB003DC660 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		2A6805C52C0F25BB003DC660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		2A6805C72C0F25BB003DC660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A6805CE2C0F415B003DC660 /* InternsNotificationServiceDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InternsNotificationServiceDebug.entitlements; sourceTree = "<group>"; };
+		2A6805CF2C0F4176003DC660 /* InternsNotificationContentDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InternsNotificationContentDebug.entitlements; sourceTree = "<group>"; };
+		2AB0D4AF2BFB7BF6009E7E87 /* hashir_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hashir_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB0D4B22BFB7BF6009E7E87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AB0D4B42BFB7BF6009E7E87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2AB0D4B62BFB7BF6009E7E87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AB0D4B92BFB7BF6009E7E87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AB0D4BB2BFB7BF7009E7E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AB0D4BE2BFB7BF7009E7E87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AB0D4C02BFB7BF7009E7E87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB0D4C52BFB7BF8009E7E87 /* hashir_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hashir_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB0D4C92BFB7BF8009E7E87 /* hashir_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hashir_appTests.swift; sourceTree = "<group>"; };
+		2AB0D4CF2BFB7BF8009E7E87 /* hashir_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hashir_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB0D4D32BFB7BF8009E7E87 /* hashir_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hashir_appUITests.swift; sourceTree = "<group>"; };
+		2AB0D4D52BFB7BF8009E7E87 /* hashir_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hashir_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2AB0D4E42BFC5F95009E7E87 /* ProfilePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageViewController.swift; sourceTree = "<group>"; };
+		2AB0D4E62BFC9B45009E7E87 /* hashir_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hashir_app.entitlements; sourceTree = "<group>"; };
+		2AB0D4E92BFD0D22009E7E87 /* ProductPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPageViewController.swift; sourceTree = "<group>"; };
+		2AB0D4EB2BFDA55A009E7E87 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		2AB0D4FD2BFF3698009E7E87 /* CardListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
+		321493FABFF4AFBA5B0FEA0F /* Pods_InternsNotificationContent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InternsNotificationContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4529E4D4071EA71D0E968B9D /* Pods_hashir_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hashir_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		473921B0C5C9241C4997C744 /* Pods-hashir_app-hashir_appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hashir_app-hashir_appUITests.debug.xcconfig"; path = "Target Support Files/Pods-hashir_app-hashir_appUITests/Pods-hashir_app-hashir_appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		566756338647DA1C7345F35A /* Pods-hashir_app-hashir_appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hashir_app-hashir_appUITests.release.xcconfig"; path = "Target Support Files/Pods-hashir_app-hashir_appUITests/Pods-hashir_app-hashir_appUITests.release.xcconfig"; sourceTree = "<group>"; };
+		636966E639BD1ADE00779BDE /* Pods-InternsNotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternsNotificationService.debug.xcconfig"; path = "Target Support Files/Pods-InternsNotificationService/Pods-InternsNotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		66B48833FB406768EBBA597B /* Pods_hashir_app_NotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hashir_app_NotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B3F75F0EAB9EC14C38B322 /* Pods-hashir_app-NotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hashir_app-NotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-hashir_app-NotificationServiceExtension/Pods-hashir_app-NotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		7D526FFF89AA142DD9176170 /* Pods-hashir_appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hashir_appTests.release.xcconfig"; path = "Target Support Files/Pods-hashir_appTests/Pods-hashir_appTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E720E60B5EE1E1E094F422E /* Pods-hashir_app-InternsNotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hashir_app-InternsNotificationService.release.xcconfig"; path = "Target Support Files/Pods-hashir_app-InternsNotificationService/Pods-hashir_app-InternsNotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		822B9B7C30D14559C4AF680E /* Pods_hashir_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hashir_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8753EB6E0B645C5608BD69E6 /* Pods-hashir_app-NotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hashir_app-NotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-hashir_app-NotificationServiceExtension/Pods-hashir_app-NotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		A56B9DD0D6D8F5B2BBE8CF97 /* Pods-hashir_app-InternsNotificationContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hashir_app-InternsNotificationContent.debug.xcconfig"; path = "Target Support Files/Pods-hashir_app-InternsNotificationContent/Pods-hashir_app-InternsNotificationContent.debug.xcconfig"; sourceTree = "<group>"; };
+		A87F6404EA162D668D3B3843 /* Pods-hashir_app-NotificationContentExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hashir_app-NotificationContentExtension.debug.xcconfig"; path = "Target Support Files/Pods-hashir_app-NotificationContentExtension/Pods-hashir_app-NotificationContentExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		ADBD76BC7F278565B2622D60 /* Pods-InternsNotificationContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternsNotificationContent.release.xcconfig"; path = "Target Support Files/Pods-InternsNotificationContent/Pods-InternsNotificationContent.release.xcconfig"; sourceTree = "<group>"; };
+		C23028E8A89930CCB60372DD /* Pods-hashir_app-NotificationContentExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hashir_app-NotificationContentExtension.release.xcconfig"; path = "Target Support Files/Pods-hashir_app-NotificationContentExtension/Pods-hashir_app-NotificationContentExtension.release.xcconfig"; sourceTree = "<group>"; };
+		E064530CD35C79F192EC5645 /* Pods-hashir_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hashir_app.debug.xcconfig"; path = "Target Support Files/Pods-hashir_app/Pods-hashir_app.debug.xcconfig"; sourceTree = "<group>"; };
+		E89AA1AEADAFAC47D1E62E1F /* Pods-hashir_app-InternsNotificationContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hashir_app-InternsNotificationContent.release.xcconfig"; path = "Target Support Files/Pods-hashir_app-InternsNotificationContent/Pods-hashir_app-InternsNotificationContent.release.xcconfig"; sourceTree = "<group>"; };
+		EB5749165F2471A586F5ACB2 /* Pods-InternsNotificationContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternsNotificationContent.debug.xcconfig"; path = "Target Support Files/Pods-InternsNotificationContent/Pods-InternsNotificationContent.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A6805AC2C0F259A003DC660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73373B0EA597E2A24F32E53C /* Pods_InternsNotificationService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A6805BB2C0F25BA003DC660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6805C02C0F25BB003DC660 /* UserNotificationsUI.framework in Frameworks */,
+				2A6805BF2C0F25BB003DC660 /* UserNotifications.framework in Frameworks */,
+				FDC2B1D4A914CDDEF1D2406A /* Pods_InternsNotificationContent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB0D4AC2BFB7BF6009E7E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF45ADB7731BADFC4D7190C0 /* Pods_hashir_app.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB0D4C22BFB7BF8009E7E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A4BD86CE1F5D465C25AA4C /* Pods_hashir_appTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB0D4CC2BFB7BF8009E7E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EE9E95361ABC1A6DE0DE7D /* Pods_hashir_app_hashir_appUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A6805B02C0F259A003DC660 /* InternsNotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				2A6805CE2C0F415B003DC660 /* InternsNotificationServiceDebug.entitlements */,
+				2A6805B12C0F259A003DC660 /* NotificationService.swift */,
+				2A6805B32C0F259A003DC660 /* Info.plist */,
+			);
+			path = InternsNotificationService;
+			sourceTree = "<group>";
+		};
+		2A6805C12C0F25BB003DC660 /* InternsNotificationContent */ = {
+			isa = PBXGroup;
+			children = (
+				2A6805CF2C0F4176003DC660 /* InternsNotificationContentDebug.entitlements */,
+				2A6805C22C0F25BB003DC660 /* NotificationViewController.swift */,
+				2A6805C42C0F25BB003DC660 /* MainInterface.storyboard */,
+				2A6805C72C0F25BB003DC660 /* Info.plist */,
+			);
+			path = InternsNotificationContent;
+			sourceTree = "<group>";
+		};
+		2AB0D4A62BFB7BF6009E7E87 = {
+			isa = PBXGroup;
+			children = (
+				2AB0D4B12BFB7BF6009E7E87 /* hashir_app */,
+				2AB0D4C82BFB7BF8009E7E87 /* hashir_appTests */,
+				2AB0D4D22BFB7BF8009E7E87 /* hashir_appUITests */,
+				2A6805B02C0F259A003DC660 /* InternsNotificationService */,
+				2A6805C12C0F25BB003DC660 /* InternsNotificationContent */,
+				2AB0D4B02BFB7BF6009E7E87 /* Products */,
+				6E42CBE08B479DC90FF3C9C7 /* Pods */,
+				3B8270094E732644F11384D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AB0D4B02BFB7BF6009E7E87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AB0D4AF2BFB7BF6009E7E87 /* hashir_app.app */,
+				2AB0D4C52BFB7BF8009E7E87 /* hashir_appTests.xctest */,
+				2AB0D4CF2BFB7BF8009E7E87 /* hashir_appUITests.xctest */,
+				2A6805AF2C0F259A003DC660 /* InternsNotificationService.appex */,
+				2A6805BE2C0F25BA003DC660 /* InternsNotificationContent.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AB0D4B12BFB7BF6009E7E87 /* hashir_app */ = {
+			isa = PBXGroup;
+			children = (
+				2AB0D4E62BFC9B45009E7E87 /* hashir_app.entitlements */,
+				2AB0D4B22BFB7BF6009E7E87 /* AppDelegate.swift */,
+				2AB0D4B42BFB7BF6009E7E87 /* SceneDelegate.swift */,
+				2AB0D4B62BFB7BF6009E7E87 /* ViewController.swift */,
+				2AB0D4B82BFB7BF6009E7E87 /* Main.storyboard */,
+				2AB0D4BB2BFB7BF7009E7E87 /* Assets.xcassets */,
+				2AB0D4BD2BFB7BF7009E7E87 /* LaunchScreen.storyboard */,
+				2AB0D4C02BFB7BF7009E7E87 /* Info.plist */,
+				2AB0D4E42BFC5F95009E7E87 /* ProfilePageViewController.swift */,
+				2AB0D4E92BFD0D22009E7E87 /* ProductPageViewController.swift */,
+				2AB0D4EB2BFDA55A009E7E87 /* HomePageViewController.swift */,
+				2AB0D4FD2BFF3698009E7E87 /* CardListViewController.swift */,
+			);
+			path = hashir_app;
+			sourceTree = "<group>";
+		};
+		2AB0D4C82BFB7BF8009E7E87 /* hashir_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AB0D4C92BFB7BF8009E7E87 /* hashir_appTests.swift */,
+			);
+			path = hashir_appTests;
+			sourceTree = "<group>";
+		};
+		2AB0D4D22BFB7BF8009E7E87 /* hashir_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AB0D4D32BFB7BF8009E7E87 /* hashir_appUITests.swift */,
+				2AB0D4D52BFB7BF8009E7E87 /* hashir_appUITestsLaunchTests.swift */,
+			);
+			path = hashir_appUITests;
+			sourceTree = "<group>";
+		};
+		3B8270094E732644F11384D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4529E4D4071EA71D0E968B9D /* Pods_hashir_app.framework */,
+				14DF216DB4DD31CD29F441F0 /* Pods_hashir_app_hashir_appUITests.framework */,
+				822B9B7C30D14559C4AF680E /* Pods_hashir_appTests.framework */,
+				66B48833FB406768EBBA597B /* Pods_hashir_app_NotificationServiceExtension.framework */,
+				2A60E87F2C05D99F00CA67B8 /* UserNotifications.framework */,
+				2A60E8812C05D99F00CA67B8 /* UserNotificationsUI.framework */,
+				0872FCAD37C719A4731F74F4 /* Pods_hashir_app_NotificationContentExtension.framework */,
+				321493FABFF4AFBA5B0FEA0F /* Pods_InternsNotificationContent.framework */,
+				070A44E04E3DA928039EC8ED /* Pods_InternsNotificationService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E42CBE08B479DC90FF3C9C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E064530CD35C79F192EC5645 /* Pods-hashir_app.debug.xcconfig */,
+				0EA4A44BCB5F1710575BA8E3 /* Pods-hashir_app.release.xcconfig */,
+				473921B0C5C9241C4997C744 /* Pods-hashir_app-hashir_appUITests.debug.xcconfig */,
+				566756338647DA1C7345F35A /* Pods-hashir_app-hashir_appUITests.release.xcconfig */,
+				273C5A8CB78F7D2669E893B0 /* Pods-hashir_appTests.debug.xcconfig */,
+				7D526FFF89AA142DD9176170 /* Pods-hashir_appTests.release.xcconfig */,
+				8753EB6E0B645C5608BD69E6 /* Pods-hashir_app-NotificationServiceExtension.debug.xcconfig */,
+				77B3F75F0EAB9EC14C38B322 /* Pods-hashir_app-NotificationServiceExtension.release.xcconfig */,
+				A87F6404EA162D668D3B3843 /* Pods-hashir_app-NotificationContentExtension.debug.xcconfig */,
+				C23028E8A89930CCB60372DD /* Pods-hashir_app-NotificationContentExtension.release.xcconfig */,
+				A56B9DD0D6D8F5B2BBE8CF97 /* Pods-hashir_app-InternsNotificationContent.debug.xcconfig */,
+				E89AA1AEADAFAC47D1E62E1F /* Pods-hashir_app-InternsNotificationContent.release.xcconfig */,
+				02CDEF06BFBF6117FAE35E53 /* Pods-hashir_app-InternsNotificationService.debug.xcconfig */,
+				7E720E60B5EE1E1E094F422E /* Pods-hashir_app-InternsNotificationService.release.xcconfig */,
+				EB5749165F2471A586F5ACB2 /* Pods-InternsNotificationContent.debug.xcconfig */,
+				ADBD76BC7F278565B2622D60 /* Pods-InternsNotificationContent.release.xcconfig */,
+				636966E639BD1ADE00779BDE /* Pods-InternsNotificationService.debug.xcconfig */,
+				0192FE1792D8105BEFD10286 /* Pods-InternsNotificationService.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A6805AE2C0F259A003DC660 /* InternsNotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A6805B72C0F259A003DC660 /* Build configuration list for PBXNativeTarget "InternsNotificationService" */;
+			buildPhases = (
+				52DAFF1BDB8403E95406CA83 /* [CP] Check Pods Manifest.lock */,
+				2A6805AB2C0F259A003DC660 /* Sources */,
+				2A6805AC2C0F259A003DC660 /* Frameworks */,
+				2A6805AD2C0F259A003DC660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InternsNotificationService;
+			productName = InternsNotificationService;
+			productReference = 2A6805AF2C0F259A003DC660 /* InternsNotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2A6805BD2C0F25BA003DC660 /* InternsNotificationContent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A6805CB2C0F25BB003DC660 /* Build configuration list for PBXNativeTarget "InternsNotificationContent" */;
+			buildPhases = (
+				2C2E3808E302670F0062BDCB /* [CP] Check Pods Manifest.lock */,
+				2A6805BA2C0F25BA003DC660 /* Sources */,
+				2A6805BB2C0F25BA003DC660 /* Frameworks */,
+				2A6805BC2C0F25BA003DC660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InternsNotificationContent;
+			productName = InternsNotificationContent;
+			productReference = 2A6805BE2C0F25BA003DC660 /* InternsNotificationContent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2AB0D4AE2BFB7BF6009E7E87 /* hashir_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB0D4D92BFB7BF8009E7E87 /* Build configuration list for PBXNativeTarget "hashir_app" */;
+			buildPhases = (
+				A5509DFA9CFC634CD8AF6DE8 /* [CP] Check Pods Manifest.lock */,
+				2AB0D4AB2BFB7BF6009E7E87 /* Sources */,
+				2AB0D4AC2BFB7BF6009E7E87 /* Frameworks */,
+				2AB0D4AD2BFB7BF6009E7E87 /* Resources */,
+				A3ED5B4A6912A445577385E7 /* [CP] Embed Pods Frameworks */,
+				2AB0D4FC2BFE04DB009E7E87 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A6805B52C0F259A003DC660 /* PBXTargetDependency */,
+				2A6805C92C0F25BB003DC660 /* PBXTargetDependency */,
+			);
+			name = hashir_app;
+			productName = hashir_app;
+			productReference = 2AB0D4AF2BFB7BF6009E7E87 /* hashir_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AB0D4C42BFB7BF8009E7E87 /* hashir_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB0D4DC2BFB7BF8009E7E87 /* Build configuration list for PBXNativeTarget "hashir_appTests" */;
+			buildPhases = (
+				39CB527EE7D94A1280C649F9 /* [CP] Check Pods Manifest.lock */,
+				2AB0D4C12BFB7BF8009E7E87 /* Sources */,
+				2AB0D4C22BFB7BF8009E7E87 /* Frameworks */,
+				2AB0D4C32BFB7BF8009E7E87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AB0D4C72BFB7BF8009E7E87 /* PBXTargetDependency */,
+			);
+			name = hashir_appTests;
+			productName = hashir_appTests;
+			productReference = 2AB0D4C52BFB7BF8009E7E87 /* hashir_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AB0D4CE2BFB7BF8009E7E87 /* hashir_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB0D4DF2BFB7BF8009E7E87 /* Build configuration list for PBXNativeTarget "hashir_appUITests" */;
+			buildPhases = (
+				B7FFC65F541DE3AB6E345DBE /* [CP] Check Pods Manifest.lock */,
+				2AB0D4CB2BFB7BF8009E7E87 /* Sources */,
+				2AB0D4CC2BFB7BF8009E7E87 /* Frameworks */,
+				2AB0D4CD2BFB7BF8009E7E87 /* Resources */,
+				E0B05C6DBA686A66EBBBBC89 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AB0D4D12BFB7BF8009E7E87 /* PBXTargetDependency */,
+			);
+			name = hashir_appUITests;
+			productName = hashir_appUITests;
+			productReference = 2AB0D4CF2BFB7BF8009E7E87 /* hashir_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AB0D4A72BFB7BF6009E7E87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2A6805AE2C0F259A003DC660 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2A6805BD2C0F25BA003DC660 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2AB0D4AE2BFB7BF6009E7E87 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2AB0D4C42BFB7BF8009E7E87 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2AB0D4AE2BFB7BF6009E7E87;
+					};
+					2AB0D4CE2BFB7BF8009E7E87 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2AB0D4AE2BFB7BF6009E7E87;
+					};
+				};
+			};
+			buildConfigurationList = 2AB0D4AA2BFB7BF6009E7E87 /* Build configuration list for PBXProject "hashir_app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AB0D4A62BFB7BF6009E7E87;
+			productRefGroup = 2AB0D4B02BFB7BF6009E7E87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AB0D4AE2BFB7BF6009E7E87 /* hashir_app */,
+				2AB0D4C42BFB7BF8009E7E87 /* hashir_appTests */,
+				2AB0D4CE2BFB7BF8009E7E87 /* hashir_appUITests */,
+				2A6805AE2C0F259A003DC660 /* InternsNotificationService */,
+				2A6805BD2C0F25BA003DC660 /* InternsNotificationContent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A6805AD2C0F259A003DC660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A6805BC2C0F25BA003DC660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6805C62C0F25BB003DC660 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB0D4AD2BFB7BF6009E7E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB0D4BC2BFB7BF7009E7E87 /* Assets.xcassets in Resources */,
+				2AB0D4BF2BFB7BF7009E7E87 /* Base in Resources */,
+				2AB0D4BA2BFB7BF6009E7E87 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB0D4C32BFB7BF8009E7E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB0D4CD2BFB7BF8009E7E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C2E3808E302670F0062BDCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InternsNotificationContent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39CB527EE7D94A1280C649F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hashir_appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52DAFF1BDB8403E95406CA83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InternsNotificationService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3ED5B4A6912A445577385E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hashir_app/Pods-hashir_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hashir_app/Pods-hashir_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hashir_app/Pods-hashir_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5509DFA9CFC634CD8AF6DE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hashir_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7FFC65F541DE3AB6E345DBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hashir_app-hashir_appUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0B05C6DBA686A66EBBBBC89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hashir_app-hashir_appUITests/Pods-hashir_app-hashir_appUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hashir_app-hashir_appUITests/Pods-hashir_app-hashir_appUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hashir_app-hashir_appUITests/Pods-hashir_app-hashir_appUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A6805AB2C0F259A003DC660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6805B22C0F259A003DC660 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A6805BA2C0F25BA003DC660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6805C32C0F25BB003DC660 /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB0D4AB2BFB7BF6009E7E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB0D4B72BFB7BF6009E7E87 /* ViewController.swift in Sources */,
+				2AB0D4B32BFB7BF6009E7E87 /* AppDelegate.swift in Sources */,
+				2AB0D4EC2BFDA55A009E7E87 /* HomePageViewController.swift in Sources */,
+				2AB0D4EA2BFD0D22009E7E87 /* ProductPageViewController.swift in Sources */,
+				2AB0D4B52BFB7BF6009E7E87 /* SceneDelegate.swift in Sources */,
+				2AB0D4E52BFC5F95009E7E87 /* ProfilePageViewController.swift in Sources */,
+				2AB0D4FE2BFF3698009E7E87 /* CardListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB0D4C12BFB7BF8009E7E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB0D4CA2BFB7BF8009E7E87 /* hashir_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB0D4CB2BFB7BF8009E7E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB0D4D42BFB7BF8009E7E87 /* hashir_appUITests.swift in Sources */,
+				2AB0D4D62BFB7BF8009E7E87 /* hashir_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A6805B52C0F259A003DC660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A6805AE2C0F259A003DC660 /* InternsNotificationService */;
+			targetProxy = 2A6805B42C0F259A003DC660 /* PBXContainerItemProxy */;
+		};
+		2A6805C92C0F25BB003DC660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A6805BD2C0F25BA003DC660 /* InternsNotificationContent */;
+			targetProxy = 2A6805C82C0F25BB003DC660 /* PBXContainerItemProxy */;
+		};
+		2AB0D4C72BFB7BF8009E7E87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AB0D4AE2BFB7BF6009E7E87 /* hashir_app */;
+			targetProxy = 2AB0D4C62BFB7BF8009E7E87 /* PBXContainerItemProxy */;
+		};
+		2AB0D4D12BFB7BF8009E7E87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AB0D4AE2BFB7BF6009E7E87 /* hashir_app */;
+			targetProxy = 2AB0D4D02BFB7BF8009E7E87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A6805C42C0F25BB003DC660 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A6805C52C0F25BB003DC660 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		2AB0D4B82BFB7BF6009E7E87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AB0D4B92BFB7BF6009E7E87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AB0D4BD2BFB7BF7009E7E87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AB0D4BE2BFB7BF7009E7E87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A6805B82C0F259A003DC660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 636966E639BD1ADE00779BDE /* Pods-InternsNotificationService.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = InternsNotificationService/InternsNotificationServiceDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BPWYRAF5X7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InternsNotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InternsNotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moengage.iosmoengage.interns.IM.InternsNotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IM Notification Service";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A6805B92C0F259A003DC660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0192FE1792D8105BEFD10286 /* Pods-InternsNotificationService.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BPWYRAF5X7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InternsNotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InternsNotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moengage.iosmoengage.interns.IM.InternsNotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IM Notification Service";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A6805CC2C0F25BB003DC660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB5749165F2471A586F5ACB2 /* Pods-InternsNotificationContent.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = InternsNotificationContent/InternsNotificationContentDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BPWYRAF5X7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InternsNotificationContent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InternsNotificationContent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moengage.iosmoengage.interns.IM.InternsNotificationContent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IM Notification Content Extension";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A6805CD2C0F25BB003DC660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADBD76BC7F278565B2622D60 /* Pods-InternsNotificationContent.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BPWYRAF5X7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InternsNotificationContent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InternsNotificationContent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moengage.iosmoengage.interns.IM.InternsNotificationContent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IM Notification Content Extension";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AB0D4D72BFB7BF8009E7E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AB0D4D82BFB7BF8009E7E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AB0D4DA2BFB7BF8009E7E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E064530CD35C79F192EC5645 /* Pods-hashir_app.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hashir_app/hashir_app.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BPWYRAF5X7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hashir_app/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-DDEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moengage.iosmoengage.interns.IM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Implementation Interns";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AB0D4DB2BFB7BF8009E7E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA4A44BCB5F1710575BA8E3 /* Pods-hashir_app.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hashir_app/hashir_app.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BPWYRAF5X7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hashir_app/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moengage.iosmoengage.interns.IM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Implementation Interns";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AB0D4DD2BFB7BF8009E7E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273C5A8CB78F7D2669E893B0 /* Pods-hashir_appTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moengage.iosmoengage.interns.IM-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hashir_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hashir_app";
+			};
+			name = Debug;
+		};
+		2AB0D4DE2BFB7BF8009E7E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D526FFF89AA142DD9176170 /* Pods-hashir_appTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moengage.iosmoengage.interns.IM-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hashir_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hashir_app";
+			};
+			name = Release;
+		};
+		2AB0D4E02BFB7BF8009E7E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 473921B0C5C9241C4997C744 /* Pods-hashir_app-hashir_appUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moengage.iosmoengage.interns.IM-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hashir_app;
+			};
+			name = Debug;
+		};
+		2AB0D4E12BFB7BF8009E7E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 566756338647DA1C7345F35A /* Pods-hashir_app-hashir_appUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moengage.iosmoengage.interns.IM-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hashir_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A6805B72C0F259A003DC660 /* Build configuration list for PBXNativeTarget "InternsNotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A6805B82C0F259A003DC660 /* Debug */,
+				2A6805B92C0F259A003DC660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A6805CB2C0F25BB003DC660 /* Build configuration list for PBXNativeTarget "InternsNotificationContent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A6805CC2C0F25BB003DC660 /* Debug */,
+				2A6805CD2C0F25BB003DC660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB0D4AA2BFB7BF6009E7E87 /* Build configuration list for PBXProject "hashir_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB0D4D72BFB7BF8009E7E87 /* Debug */,
+				2AB0D4D82BFB7BF8009E7E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB0D4D92BFB7BF8009E7E87 /* Build configuration list for PBXNativeTarget "hashir_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB0D4DA2BFB7BF8009E7E87 /* Debug */,
+				2AB0D4DB2BFB7BF8009E7E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB0D4DC2BFB7BF8009E7E87 /* Build configuration list for PBXNativeTarget "hashir_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB0D4DD2BFB7BF8009E7E87 /* Debug */,
+				2AB0D4DE2BFB7BF8009E7E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB0D4DF2BFB7BF8009E7E87 /* Build configuration list for PBXNativeTarget "hashir_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB0D4E02BFB7BF8009E7E87 /* Debug */,
+				2AB0D4E12BFB7BF8009E7E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AB0D4A72BFB7BF6009E7E87 /* Project object */;
+}
